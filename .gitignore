@@ -1,0 +1,30 @@
+# Byte-code files
+*.pyc
+__pycache__/
+# For a library or package, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# Distributions and packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+# Windows python executable
+venv.bak/
+
+# Editors and IDEs
+.vscode/        # VS Code
+.idea/          # PyCharm
+*.swp           # Vim
+
+# Miscellaneous
+.env            # Environment variables
+.pytest_cache/
+.tox/
+coverage/
